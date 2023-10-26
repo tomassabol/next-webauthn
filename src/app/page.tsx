@@ -14,8 +14,8 @@ export default async function IndexPage() {
 					<div>
 						<h3>Welcome!</h3>
 						<p>You are logged in as {auth.user.email}</p>
-						<div className="text-center mt-2">
-						<SignOutButton />
+						<div className="mt-2 text-center">
+							<SignOutButton />
 						</div>
 					</div>
 				)}
